@@ -1,0 +1,30 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    background: lavender;
+}
+
+
+#status {
+    /* background: linear-gradient(90deg, rgb(81, 180, 151) 0%, rgb(50, 181, 175) 35%, rgb(1, 173, 209) 100%); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #cf202e;
+}
+
+#card_desc{
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+#button_color{
+    background: rgb(23 43 93);
+    color: white;
+}
