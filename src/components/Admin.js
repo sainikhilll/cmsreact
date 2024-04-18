@@ -18,7 +18,7 @@ class Admin extends React.Component {
 
   componentWillMount() {
     
-    axios.get(`https://cms-backend-api-361fc037741a.herokuapp.com/collegeManagementSystem/loadStudentDetails`).then((res) => {
+    axios.get(`https://cmsrestapi-df498d82e4db.herokuapp.com/collegeManagementSystem/loadStudentDetails`).then((res) => {
       this.setState({
         dataList:res.data.data,
         apiLoading:false
